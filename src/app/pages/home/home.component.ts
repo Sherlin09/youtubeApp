@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { YoutubeService } from '../../services/youtube.service';
 import { Video } from '../../models/youtube.models';
-import {Swal} from 'sweetalert2';
+import Swal from 'sweetalert2'
 
 @Component({
   selector: 'app-home',
